@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+body *{
+    font-family: 'Inter', 'sans-serif';
+    line-height: 160%;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+}
+header{
+    margin-top: 32px;
+    text-align: center;
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+header div{
+    margin: auto;
+    padding: 4px;
+    background:linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    transition: transform .3s;
+}
+header img{
+    border-radius: 50%;
+    width: 100%;
+    box-sizing: border-box
+}
+
+section{
+    color: white;
+    background:linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 3px;
+    border-radius: 8px;
+
+}
+
+section h2{
+    letter-spacing: -0.47px;
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+section div{
+    background: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 18px;
+}
+
+.games-list img{
+    margin-top: 10px;
+    width: 90px;
+    border-radius: 8px;
+    transition: transform .3s;
+}
+
+.games-list img:hover{
+    transform: scale(1.1);
+}
+
+.streamers-list img{
+    margin-top: 10px;
+    width: 70px;
+    border: 1px solid #443E54;
+    border-radius: 999px;
+    transition: transform .3s;
+}
+
+.streamers-list img:hover{
+    transform: scale(1.1);
+}
+
+.midia-list svg{
+    margin-top: 10px;
+    width: 40px;
+    transition: transform .3s;
+}
+
+.midia-list svg:hover{
+    transform: scale(1.1);
+}
